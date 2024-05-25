@@ -1,0 +1,21 @@
+{
+  "name": "to-do-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Hadassa Medeiros",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "prettier": "^3.2.5",
+    "turbo": "^1.13.3"
+  }
+}
