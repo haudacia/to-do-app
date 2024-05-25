@@ -11,7 +11,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:frontend": "dotenv -- turbo run dev --scope='frontend'",
     "start:backend": "dotenv -- turbo run dev --scope='backend'",
-    "dev": "dotenv -- turbo run dev "
+    "dev": "dotenv -- turbo run dev ",
+    "build": "[my-framework] build --output public"
   },
   "keywords": [],
   "author": "Hadassa Medeiros",
