@@ -8,14 +8,32 @@
     "frontend"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:frontend": "dotenv -- turbo run dev --scope='frontend'",
+    "start:backend": "dotenv -- turbo run dev --scope='backend'",
+    "dev": "dotenv -- turbo run dev "
   },
   "keywords": [],
   "author": "Hadassa Medeiros",
   "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.2.0",
+    "dotenv-cli": "^7.0.0",
+    "eslint-plugin-react": "^7.34.1",
+    "globals": "^15.2.0",
+    "turbo": "^1.13.3",
+    "typescript-eslint": "^7.8.0"
+  },
   "dependencies": {
-    "dotenv": "^16.4.5",
+    "@vitejs/plugin-react": "^4.2.1",
     "prettier": "^3.2.5",
-    "turbo": "^1.13.3"
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "jsonwebtoken": "^9.0.2",
+    "react-hook-form": "^7.51.4",
+    "react-query": "^3.39.3",
+    "react-router-dom": "^6.23.0",
+    "zod": "^3.23.8",
+    "zod-express-middleware": "^1.4.0"
   }
 }
